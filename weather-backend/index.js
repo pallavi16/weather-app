@@ -6,8 +6,8 @@ const app = express();
 app.use(cors());
 
 
-const API_KEY = 'ae260dbe2f61cf06028ac5e170d20397';
-const PORT = 5001;
+const API_KEY = 'ae260dbe2f61cf06028ac5e170d20397'; // Not the most ideal way.. Ideally should be in .env file
+const PORT = 5001; // Hard-coded as a test project
 
 // Root route for testing
 app.get('/', (req, res) => {
