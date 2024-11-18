@@ -1,0 +1,94 @@
+/* General styles */
+.app-container {
+  display: flex; /* Enables Flexbox */
+  flex-direction: column; /* Arrange items vertically */
+  justify-content: center; /* Centers items vertically */
+  align-items: center; /* Centers items horizontally */
+  text-align: center;
+  margin: 0;
+  padding: 50px;
+  min-height: 100vh; /* Full height to vertically center */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #333;
+  font-family: Arial, sans-serif;
+  transition: background-image 0.5s ease-in-out;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #4a90e2;
+}
+
+/* Input and button styles */
+.input-container {
+  display: flex; /* Arrange input and button horizontally */
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.city-input {
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 300px;
+  outline: none;
+}
+
+.get-weather-button {
+  margin-left: 10px;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #4a90e2;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.get-weather-button:hover {
+  background-color: #357ab7;
+}
+
+/* Error message */
+.error-message {
+  margin: 20px auto;
+  padding: 10px;
+  color: #d32f2f;
+  font-weight: bold;
+  border: 1px solid #d32f2f;
+  border-radius: 5px;
+  background-color: #f8d7da;
+  width: 80%;
+  max-width: 400px;
+}
+
+/* Weather card */
+.weather-card {
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex; /* Enables Flexbox for the card */
+  flex-direction: column; /* Arrange content vertically */
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
+}
+
+.weather-title {
+  font-size: 2rem;
+  color: #333;
+}
+
+.weather-info {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
