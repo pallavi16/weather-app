@@ -22,3 +22,5 @@ kubectl apply -f weather-frontend/frontend-deployment.yaml
 echo "Exposing services..."
 minikube service weather-backend-service
 minikube service weather-frontend-service
+
+echo "✅ Deployment complete!"
